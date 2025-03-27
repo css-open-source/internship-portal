@@ -1,4 +1,3 @@
-
 // import { Route, Routes, BrowserRouter as Router } from "react-router";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
@@ -8,7 +7,6 @@ import Signup from "./pages/Signup";
 import Request from "./pages/Request";
 
 function App() {
-
   return (
     <div className="app">
       <Router>
