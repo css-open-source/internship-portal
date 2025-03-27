@@ -1,5 +1,11 @@
+import { Link } from "react-router-dom";
+
 const Request = () => {
-  return <div>Request your letter here</div>;
+  return (
+    <>
+      <div>Request</div>
+    </>
+  );
 };
 
 export default Request;
