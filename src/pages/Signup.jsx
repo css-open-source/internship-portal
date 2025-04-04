@@ -4,7 +4,7 @@ const Signup = () => {
   return (
     <>
       {/* picture */}
-      <div className="flex flex-col md:flex-row gap-4   ">
+      <div className="flex md:flex-row gap-4   ">
         <div className="hidden md:block h-screen sticky top-0 left-0  rounded-lg">
           <img
             src="\src\assets\loginpic.jpg"
@@ -32,7 +32,6 @@ const Signup = () => {
           <h1 className=" flex justify-center mt-2 text-3xl font-bold text-blue-700">
             Sign Up
           </h1>
-         
 
           {/* form */}
           <form className="flex flex-col mt-10">
