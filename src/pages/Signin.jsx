@@ -1,10 +1,12 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import Image from "../components/Image";
+import SignInForm from "../components/SignInForm";
 
 const Signin = () => {
   return (
-    <div>
-      <h1>Sign In</h1>
-      <Link to="/">Don't have an account? Sign Up</Link>
+    <div className="flex w-full h-screen items-stretch">
+      <Image />
+      <SignInForm />
     </div>
   );
 };
